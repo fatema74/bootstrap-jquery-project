@@ -1,0 +1,47 @@
+/* nunito font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+/* montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital@0;1&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat", serif;
+}
+p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+}
+
+body{
+  font-family: "Nunito", serif;
+  background-color: #6c757d;
+}
+
+/* navigation */
+nav.r-nav{
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+
+nav .navbar-brand{
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .navbar-nav li a{
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+nav .navbar-nav li{
+  margin-left: 15px;
+}
