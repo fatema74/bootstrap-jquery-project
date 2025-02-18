@@ -92,4 +92,38 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
-  
+
+// animation section 
+// part one
+$('.part-one').waypoint(function () {
+  $('.part-one').addClass('animated fadeInLeft');
+}, { offset: '50%' });
+// part two
+$('.part-two').waypoint(
+  function () {
+    $('.part-two').addClass('animated fadeInDownBig');
+  },
+  { offset: '50%' }
+);
+// part three
+$('.part-three').waypoint(
+  function () {
+    $('.part-three').addClass('animated fadeInRight');
+  },
+  { offset: '50%' }
+);
+// barchates
+  $('.barchates').waypoint(
+    function () {
+      $('.barchates').addClass('animated fadeInRight');
+    },
+    { offset: '50%' }
+);
+// barchat-one
+$('.barchat-one').waypoint(
+  function () {
+    $('.barchat-one').addClass('animated fadeInUpBig');
+  },
+  { offset: '50%' }
+);
+

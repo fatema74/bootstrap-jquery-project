@@ -206,3 +206,19 @@ margin-bottom: 10px;
 .slider-card p{
   color: #6c757d;
 }
+
+/* footer section */
+footer{
+  background: #000;
+  color: #fff;
+  padding: 50px 0 30px 0;
+}
+
+/* animate section */
+.part-one, .part-two, .part-three, .barchates, 
+.barchat-one{
+  opacity: 0;
+}
+.part-one.animated, .part-two.animated, .part-three.animated, .barchates.animated, .barchat-one.animated{
+  opacity: 1;
+}
