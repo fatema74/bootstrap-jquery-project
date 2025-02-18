@@ -1,84 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- fonst awesome -->
-  <link rel="stylesheet" href="assete/css/all.min.css">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="assete/css/bootstrap.min.css">
-  <!-- main css -->
-  <link rel="stylesheet" href="assete/css/style.css">
-  <title>Jquery Project</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg sticky r-nav fixed-top">
-    <div class="container">
-      <a href="#" class="navbar-brand"><img src="assete/img/logo1.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId">
-        <span><i class="fas fa-bars hamburger"></i></span>
-      </button>
-      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarId">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Client</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Contact</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonst awesome -->
+    <link rel="stylesheet" href="assete/css/all.min.css" />
+
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- typed js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+
+    <!-- jquery js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <!-- barchat js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"
+    ></script>
+
+    <!-- counter js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- waypoints js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- carousel js & css -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assete/css/style.css" />
+    <title>Jquery Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky r-nav fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><img src="assete/img/logo1.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarId"
+        >
+          <span><i class="fas fa-bars hamburger"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarId">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Client</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <header id="home">
-    <div class="container-fluid header-content">
-      <div class="row">
-        <div class="col text-center">
-          <div class="content-box">
-            <h4>Welcome</h4>
-            <h1>I'M <span class="element"></span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, officiis!</p>
-            <a href="#">Download CV</a>
+    </nav>
+    <!-- header section -->
+    <header id="home">
+      <div class="container-fluid header-content">
+        <div class="row">
+          <div class="col text-center">
+            <div class="content-box">
+              <h4>Welcome</h4>
+              <h1>I'M <span class="element"></span></h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, officiis!
+              </p>
+              <a href="#">Download CV</a>
+            </div>
           </div>
         </div>
       </div>
+    </header>
+    <!-- cart section -->
+    <section class="container card-section">
+      <h1 class="text-center p-5 sec-title">Our Service</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="logoCard text-center">
+              <i class="fa-solid fa-house icon"></i>
+            </div>
+            <hr />
+            <h1 class="web">Web development</h1>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              voluptatum sunt explicabo, cum eum deserunt, eius ipsam laborum,
+              tempora consequatur necessitatibus ullam ab officiis fugit culpa
+              possimus unde sint maxime!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="logoCard text-center">
+              <i class="fa-solid fa-house icon"></i>
+            </div>
+            <hr />
+            <h1 class="web">Web development</h1>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              voluptatum sunt explicabo, cum eum deserunt, eius ipsam laborum,
+              tempora consequatur necessitatibus ullam ab officiis fugit culpa
+              possimus unde sint maxime!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="logoCard text-center">
+              <i class="fa-solid fa-house icon"></i>
+            </div>
+            <hr />
+            <h1 class="web">Web development</h1>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              voluptatum sunt explicabo, cum eum deserunt, eius ipsam laborum,
+              tempora consequatur necessitatibus ullam ab officiis fugit culpa
+              possimus unde sint maxime!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- last 10 yers -->
+    <section class="barchat-section">
+      <h1 class="text-center sec-title p-5">Last 10 years</h1>
+      <div class="row p-0 m-0">
+        <div class="col-lg-8">
+          <h1 class="text-center">Barchart</h1>
+          <div id="barchartContainer" style="height: 300px; width: 100%"></div>
+        </div>
+        <div class="col-lg-4">
+          <h2 class="text-center">Todo</h2>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter text"
+            class="input"
+          /><br />
+          <button class="text-white bg-primary p-2 btn">Add me</button>
+          <ol></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- count section -->
+    <section class="count-section">
+      <h1 class="text-center sec-title p-5">Todo Count</h1>
+      <div class="bg-black">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="main-title text-white text-center">
+                <span class="client">Total client</span>
+              <h1 class="count">400</h1>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="main-title text-white text-center">
+                <span class="client">Total Developer</span>
+              <h1 class="count">200</h1>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="main-title text-white text-center">
+                <span class="client">Total project</span>
+              <h1 class="count">500</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- main slider section -->
+    <div class="slider-section">
+      <h1 class="text-center sec-title p-5">About More</h1>
+      <div class="owl-carousel">
+        <div class="slider-card">
+          <img src="assete/img/shop/11.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+        <div class="slider-card">
+          <img src="assete/img/shop/16.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+        <div class="slider-card">
+          <img src="assete/img/shop/15.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+        <div class="slider-card">
+          <img src="assete/img/shop/14.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+        <div class="slider-card">
+          <img src="assete/img/shop/13.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+        <div class="slider-card">
+          <img src="assete/img/shop/12.jpg" alt="">
+          <h1>TreShart</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat?</p>
+        </div>
+      </div>
     </div>
-  </header>
 
-  
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4"></div>
+        </div>
+      </div>
+    </footer>
+    
 
 
-  <section class="footer-area">
-<h2>hello footer</h2>
-  </section>
 
-
-
-
-
-  <!-- popper js -->
-  <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
-></script>
-<!-- bootstrap js -->
-<script src="assete/libery/bootstrap.min.js"></script>
-<!-- jquery js -->
-<script src="assete/libery/jquery-3.7.1.min.js"></script>
-<!-- type js -->
-<script src="assete/libery/mattboldt-typed.js-adbd700/src/typed.js"></script>
-<!-- main js -->
-<script src="assete/js/app.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- main js -->
+    <script src="assete/js/app.js"></script>
+  </body>
 </html>

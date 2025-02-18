@@ -20,10 +20,13 @@ p{
 
 body{
   font-family: "Nunito", serif;
-  background-color: #6c757d;
 }
 
 /* navigation */
+/* .scrolled{
+  background: green;
+  transition: background 1s;
+} */
 nav.r-nav{
   background: transparent;
   padding: 20px 0;
@@ -66,7 +69,7 @@ nav.stickyadd .navbar-nav .nav-link{
 }
 
 nav.stickyadd .hamburger{
-  color: #000;
+  color: #000 !important;
 }
 
 /* header section */
@@ -111,9 +114,95 @@ header{
 .content-box p{
   color: #fff;
 }
+.content-box .element{
+  color: green;
+}
+/* card section */
+.card-section, .barchat-section, .count-section, .slider-section, .footer-section{
+  margin-top: 50px;
+}
+.card{
+  box-shadow: 3px 4px 10px black;
+  /* height: 350px; */
+  width: 100%;
+  padding: 15px;
+}
+.icon{
+  font-size: 1.4rem;
+  border: 1px solid green;
+  border-radius: 50%;
+  font-weight: 600;
+  padding: 10px;
+  color: green;
+}
+.web{
+  text-align: center;
+  color: green;
+  font-size: 1.4rem;
+}
+.text{
+  color: gray;
+  text-align: justify;
+  padding: 10px;
+}
+/* batchart section */
 
+.input{
+width: 90%;
+padding: 10px;
+margin-bottom: 10px;
+}
+.sec-title{
+  font-size: 50px;
+  font-weight: 600;
+  color: green;
+}
+.fas{
+  color: green;
+  margin-left: 20px;
+}
 
-/* footer-area */
-.footer-area{
-  margin-top: 600px;
+/* count section */
+.bg-black{
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/banner/1.jpg');
+}
+.main-title{
+  margin-top: 14rem;
+}
+.client{
+  font-size: 2rem;
+}
+
+/* slider section */
+.slider-card{
+  width: 300px;
+  background: #fff;
+  box-shadow: 2px 4px 5px black;
+  padding: 15px;
+  text-align: center;
+}
+.slider-card:hover{
+  border: 2px solid green;
+  background: #ecedee;
+}
+.slider-card img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  line-height: 150px;
+}
+.slider-card h1{
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.slider-card p{
+  color: #6c757d;
 }
